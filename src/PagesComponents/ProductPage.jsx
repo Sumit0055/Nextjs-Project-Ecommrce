@@ -1,7 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-// import { useParams } from 'react-router-dom'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectCreative } from 'swiper/modules';
@@ -9,13 +8,12 @@ import { Autoplay, EffectCreative } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-creative';
 
+import Breadcrum from '@/Components/Breadcrum'
 
-import Breadcrum from '../Components/Breadcrum'
-
-import { getProduct } from "../Redux/ActionCreators/ProductActionCreators"
-import { getCart, createCart } from "../Redux/ActionCreators/CartActionCreators"
-import { getWishlist, createWishlist } from "../Redux/ActionCreators/WishlistActionCreators"
-import { getTestimonial } from "../Redux/ActionCreators/TestimonialActionCreators"
+import { getProduct } from "@/Redux/ActionCreators/ProductActionCreators"
+import { getCart, createCart } from "@/Redux/ActionCreators/CartActionCreators"
+import { getWishlist, createWishlist } from "@/Redux/ActionCreators/WishlistActionCreators"
+import { getTestimonial } from "@/Redux/ActionCreators/TestimonialActionCreators"
 import { useParams, useRouter } from 'next/navigation'
 import Link from 'next/link';
 

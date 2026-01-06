@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
-import Breadcrum from '../Components/Breadcrum'
-import FormValidator from '../Validators/FormValidator'
+import Breadcrum from '@/Components/Breadcrum'
+import FormValidator from '@/Validators/FormValidator'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 

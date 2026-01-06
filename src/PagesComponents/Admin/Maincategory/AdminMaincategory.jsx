@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect } from 'react'
 import Link  from 'next/link'
 
@@ -8,10 +9,10 @@ import 'datatables.net-dt/css/dataTables.dataTables.min.css'; // Import DataTabl
 import 'datatables.net';
 
 
-import Breadcrum from '../../../Components/Breadcrum'
-import AdminSidebar from '../../../Components/AdminSidebar'
+import Breadcrum from '@/Components/Breadcrum'
+import AdminSidebar from '@/Components/AdminSidebar'
 
-import { deleteMaincategory, getMaincategory } from "../../../Redux/ActionCreators/MaincategoryActionCreators"
+import { deleteMaincategory, getMaincategory } from "@/Redux/ActionCreators/MaincategoryActionCreators"
 export default function AdminMaincategory() {
     let MaincategoryStateData = useSelector(state => state.MaincategoryStateData)
     let dispatch = useDispatch()

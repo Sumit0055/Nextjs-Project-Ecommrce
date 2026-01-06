@@ -1,11 +1,13 @@
+"use client"
 import React, { useEffect, useState } from 'react'
-import { Link, useNavigate, useParams } from 'react-router-dom'
+// import Link from 'next/link'
+import { useParams, useRouter } from 'next/navigation'
 
 import { useDispatch, useSelector } from 'react-redux';
 
 
-import Breadcrum from '../../../Components/Breadcrum'
-import AdminSidebar from '../../../Components/AdminSidebar'
+import Breadcrum from '@/Components/Breadcrum'
+import AdminSidebar from '@/Components/AdminSidebar'
 
 import { deleteContactUs, getContactUs, updateContactUs } from "../../../Redux/ActionCreators/ContactUsActionCreators"
 export default function AdminContactUsShow() {

@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
-import Breadcrum from '../../Components/Breadcrum'
-import Cart from '../../Components/Buyer/Cart'
+import Breadcrum from '@/Components/Breadcrum'
+import Cart from '@/Components/Buyer/Cart'
 
 export default function CartPage() {
     return (

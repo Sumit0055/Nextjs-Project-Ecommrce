@@ -7,7 +7,7 @@ import { Autoplay } from 'swiper/modules'
 
 import "swiper/css";
 
-import { getBrand } from "../Redux/ActionCreators/BrandActionCreators"
+import { getBrand } from "@/Redux/ActionCreators/BrandActionCreators"
 export default function BrandSlider() {
     let BrandStateData = useSelector(state => state.BrandStateData)
     let dispatch = useDispatch()

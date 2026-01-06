@@ -5,12 +5,12 @@ import { useDispatch, useSelector } from 'react-redux'
 import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
 
-import Breadcrum from '../Components/Breadcrum'
+import Breadcrum from '@/Components/Breadcrum'
 
-import { getMaincategory } from "../Redux/ActionCreators/MaincategoryActionCreators"
-import { getSubcategory } from "../Redux/ActionCreators/SubcategoryActionCreators"
-import { getBrand } from "../Redux/ActionCreators/BrandActionCreators"
-import { getProduct } from "../Redux/ActionCreators/ProductActionCreators"
+import { getMaincategory } from "@/Redux/ActionCreators/MaincategoryActionCreators"
+import { getSubcategory } from "@/Redux/ActionCreators/SubcategoryActionCreators"
+import { getBrand } from "@/Redux/ActionCreators/BrandActionCreators"
+import { getProduct } from "@/Redux/ActionCreators/ProductActionCreators"
 
 export default function ShopPage() {
     let [products, setProducts] = useState([])

@@ -1,5 +1,5 @@
 import React from 'react'
-import Breadcrum from '../../Components/Breadcrum'
+import Breadcrum from '@/Components/Breadcrum'
 import Link  from 'next/link'
 
 export default function OrderConfirmationPage() {

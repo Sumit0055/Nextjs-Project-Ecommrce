@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
-import { getSetting } from "../Redux/ActionCreators/SettingActionCreators"
+import { getSetting } from "@/Redux/ActionCreators/SettingActionCreators"
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 

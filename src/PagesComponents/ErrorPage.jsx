@@ -1,11 +1,8 @@
 "use client"
 import React, { useEffect } from 'react'
-import Breadcrum from '../Components/Breadcrum'
+import Breadcrum from '@/Components/Breadcrum'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
-// import Link from 'next/link'
-// import { useRouter } from 'next/navigation'
-
 
 export default function ErrorPage() {
     let navigate = useRouter()

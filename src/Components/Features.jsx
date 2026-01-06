@@ -3,7 +3,7 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
-import { getFeature } from "../Redux/ActionCreators/FeatureActionCreators"
+import { getFeature } from "@/Redux/ActionCreators/FeatureActionCreators"
 export default function Features() {
     let FeatureStateData = useSelector(state => state.FeatureStateData)
     let dispatch = useDispatch()

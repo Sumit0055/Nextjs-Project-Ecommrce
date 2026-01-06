@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useState } from 'react'
-import Breadcrum from '../../Components/Breadcrum'
-import Cart from '../../Components/Buyer/Cart'
+import Breadcrum from '@/Components/Breadcrum'
+import Cart from '@/Components/Buyer/Cart'
 import Link  from 'next/link'
 
 export default function CheckoutPage() {

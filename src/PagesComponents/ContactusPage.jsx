@@ -3,11 +3,11 @@ import React, { useEffect, useState } from 'react'
 import Link  from 'next/link'
 import { useDispatch, useSelector } from 'react-redux'
 
-import Breadcrum from '../Components/Breadcrum'
+import Breadcrum from '@/Components/Breadcrum'
 
-import { getSetting } from "../Redux/ActionCreators/SettingActionCreators"
-import { createContactUs } from "../Redux/ActionCreators/ContactUsActionCreators"
-import FormValidator from '../Validators/FormValidator'
+import { getSetting } from "@/Redux/ActionCreators/SettingActionCreators"
+import { createContactUs } from "@/Redux/ActionCreators/ContactUsActionCreators"
+import FormValidator from '@/Validators/FormValidator'
 export default function ContactusPage() {
     let [data, setData] = useState({
         name: "",

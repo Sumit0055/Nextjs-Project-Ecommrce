@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react'
-import Breadcrum from '../Components/Breadcrum'
+import Breadcrum from '@/Components/Breadcrum'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 

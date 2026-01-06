@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect, useState } from 'react'
 
 import { useDispatch, useSelector } from 'react-redux';
@@ -7,8 +8,8 @@ import 'datatables.net-dt/css/dataTables.dataTables.min.css'; // Import DataTabl
 import 'datatables.net';
 
 
-import Breadcrum from '../../../Components/Breadcrum'
-import AdminSidebar from '../../../Components/AdminSidebar'
+import Breadcrum from '@/Components/Breadcrum'
+import AdminSidebar from '@/Components/AdminSidebar'
 
 import { deleteNewsletter, getNewsletter, updateNewsletter } from "../../../Redux/ActionCreators/NewsletterActionCreators"
 export default function AdminNewsletter() {

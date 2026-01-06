@@ -1,12 +1,14 @@
+"use client"
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
-import { Link, useNavigate, useParams } from 'react-router-dom'
+import Link from 'next/link'
+import { useParams, useRouter } from 'next/navigation'
 
-import Breadcrum from '../../../Components/Breadcrum'
-import AdminSidebar from '../../../Components/AdminSidebar'
+import Breadcrum from '@/Components/Breadcrum'
+import AdminSidebar from '@/Components/AdminSidebar'
 
-import FormValidator from "../../../Validators/FormValidator"
+import FormValidator from "@/Validators/FormValidator"
 
 import { getFaq, updateFaq } from "../../../Redux/ActionCreators/FaqActionCreators"
 export default function AdminUpdateFaq() {
@@ -57,7 +59,7 @@ export default function AdminUpdateFaq() {
                 setErrorMessage(old => {
                     return {
                         ...old,
-                        'name': 'Faq With This Name Already Exist'
+                        'question': 'Faq With This Question Already Exist'
                     }
                 })
             }

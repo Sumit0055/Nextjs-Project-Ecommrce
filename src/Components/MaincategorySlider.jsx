@@ -7,7 +7,7 @@ import { Autoplay } from 'swiper/modules'
 
 import "swiper/css";
 
-import { getMaincategory } from "../Redux/ActionCreators/MaincategoryActionCreators"
+import { getMaincategory } from "@/Redux/ActionCreators/MaincategoryActionCreators"
 export default function MaincategorySlider() {
     let MaincategoryStateData = useSelector(state => state.MaincategoryStateData)
     let dispatch = useDispatch()

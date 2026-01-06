@@ -1,13 +1,13 @@
 "use client"
 import React, { useEffect, useState } from 'react'
-import Breadcrum from '../../Components/Breadcrum'
+import Breadcrum from '@/Components/Breadcrum'
 import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
-import Profile from '../../Components/Buyer/Profile'
-import UpdateProfile from '../../Components/Buyer/UpdateProfile'
-import Address from '../../Components/Buyer/Address'
-import Wishlist from '../../Components/Buyer/Wishlist'
-import Orders from '../../Components/Buyer/Orders'
+import Profile from '@/Components/Buyer/Profile'
+import UpdateProfile from '@/Components/Buyer/UpdateProfile'
+import Address from '@/Components/Buyer/Address'
+import Wishlist from '@/Components/Buyer/Wishlist'
+import Orders from '@/Components/Buyer/Orders'
 
 export default function ProfilePage() {
     let searchParams = useSearchParams()

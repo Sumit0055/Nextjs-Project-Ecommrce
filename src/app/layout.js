@@ -1,4 +1,5 @@
 
+import Script from "next/script";
 import MasterLayout from "./MasterLayout"
 
 export const metadata = {
@@ -29,8 +30,8 @@ export default function RootLayout({ children }) {
         <link href="/css/style.css" rel="stylesheet" />
 
         <link rel="stylesheet" href="/richtexteditor/rte_theme_default.css" />
-        <script type="/text/javascript" src="/richtexteditor/rte.js"></script>
-        <script type="/text/javascript" src='/richtexteditor/plugins/all_plugins.js'></script>
+        <Script type="text/javascript" src="/richtexteditor/rte.js" strategy="afterInteraxtive" />
+        <Script type="text/javascript" src='/richtexteditor/plugins/all_plugins.js' strategy="afterInteraxtive" />
       </head>
       <body>
         {/* <div id="spinner"
@@ -44,22 +45,22 @@ export default function RootLayout({ children }) {
           {children}
         </MasterLayout>
 
-        <script type="module" src="/src/main.jsx"></script>
+        <Script type="module" src="/src/main.jsx"></Script>
 
-  {/* <!-- Back to Top --> */}
-  <a href="#" className="btn btn-lg btn-primary btn-lg-square back-to-top"><i className="bi bi-arrow-up"></i></a>
+        {/* <!-- Back to Top --> */}
+        <a href="#" className="btn btn-lg btn-primary btn-lg-square back-to-top"><i className="bi bi-arrow-up"></i></a>
 
 
-  {/* <!-- JavaScript Libraries --> */}
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="/lib/wow/wow.min.js"></script>
-  <script src="/lib/easing/easing.min.js"></script>
-  <script src="/lib/waypoints/waypoints.min.js"></script>
-  <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
+        {/* <!-- JavaScript Libraries --> */}
+        <Script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></Script>
+        <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></Script>
+        <Script src="/lib/wow/wow.min.js"></Script>
+        <Script src="/lib/easing/easing.min.js"></Script>
+        <Script src="/lib/waypoints/waypoints.min.js"></Script>
+        <Script src="/lib/owlcarousel/owl.carousel.min.js"></Script>
 
-  {/* <!-- Template Javascript --> */}
-  <script src="js/main.js"></script>
+        {/* <!-- Template Javascript --> */}
+        <Script src="js/main.js"></Script>
 
       </body>
     </html>

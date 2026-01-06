@@ -7,7 +7,7 @@ import { Autoplay } from 'swiper/modules'
 
 import "swiper/css";
 
-import { getSubcategory } from "../Redux/ActionCreators/SubcategoryActionCreators"
+import { getSubcategory } from "@/Redux/ActionCreators/SubcategoryActionCreators"
 export default function SubcategorySlider() {
     let SubcategoryStateData = useSelector(state => state.SubcategoryStateData)
     let dispatch = useDispatch()

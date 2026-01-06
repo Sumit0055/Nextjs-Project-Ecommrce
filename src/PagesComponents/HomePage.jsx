@@ -7,18 +7,18 @@ import { Autoplay } from 'swiper/modules'
 
 import "swiper/css";
 
-import About from "../Components/About"
-import MaincategorySlider from '../Components/MaincategorySlider';
-import Features from '../Components/Features'
-import ProductSlider from '../Components/ProductSlider'
-import Products from '../Components/Products'
-import Testimonial from '../Components/Testimonial'
+import About from "@/Components/About"
+import MaincategorySlider from '@/Components/MaincategorySlider';
+import Features from '@/Components/Features'
+import ProductSlider from '@/Components/ProductSlider'
+import Products from '@/Components/Products'
+import Testimonial from '@/Components/Testimonial'
 
-import SubcategorySlider from '../Components/SubcategorySlider';
-import BrandSlider from '../Components/BrandSlider';
+import SubcategorySlider from '@/Components/SubcategorySlider';
+import BrandSlider from '@/Components/BrandSlider';
 
-import { getMaincategory } from "../Redux/ActionCreators/MaincategoryActionCreators"
-import { getProduct } from "../Redux/ActionCreators/ProductActionCreators"
+import { getMaincategory } from "@/Redux/ActionCreators/MaincategoryActionCreators"
+import { getProduct } from "@/Redux/ActionCreators/ProductActionCreators"
 
 export default function HomePage() {
     let MaincategoryStateData = useSelector(state => state.MaincategoryStateData)

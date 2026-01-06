@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect, useState } from 'react'
 import Link  from 'next/link'
 
@@ -8,8 +9,8 @@ import 'datatables.net-dt/css/dataTables.dataTables.min.css'; // Import DataTabl
 import 'datatables.net';
 
 
-import Breadcrum from '../../../Components/Breadcrum'
-import AdminSidebar from '../../../Components/AdminSidebar'
+import Breadcrum from '@/Components/Breadcrum'
+import AdminSidebar from '@/Components/AdminSidebar'
 
 import { deleteUser, getUser, updateUser } from "../../../Redux/ActionCreators/UserActionCreators"
 export default function AdminUser() {

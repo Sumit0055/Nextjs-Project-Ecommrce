@@ -3,8 +3,8 @@ import React, { useEffect, useState } from 'react'
 // import Link  from 'next/link'
 import { useDispatch, useSelector } from 'react-redux'
 
-import { createNewsletter, getNewsletter } from "../Redux/ActionCreators/NewsletterActionCreators"
-import { getSetting } from "../Redux/ActionCreators/SettingActionCreators"
+import { createNewsletter, getNewsletter } from "@/Redux/ActionCreators/NewsletterActionCreators"
+import { getSetting } from "@/Redux/ActionCreators/SettingActionCreators"
 import Link from 'next/link'
 export default function Footer() {
     let [setting, setSetting] = useState({

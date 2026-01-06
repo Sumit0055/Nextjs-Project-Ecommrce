@@ -1,6 +1,7 @@
+"use client"
 import React, { useEffect, useState } from 'react'
-import Breadcrum from '../../Components/Breadcrum'
-import AdminSidebar from '../../Components/AdminSidebar'
+import Breadcrum from '@/Components/Breadcrum'
+import AdminSidebar from '@/Components/AdminSidebar'
 
 export default function AdminHome() {
     let [data, setData] = useState({})

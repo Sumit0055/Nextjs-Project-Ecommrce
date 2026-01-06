@@ -1,13 +1,15 @@
+"use client"
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
-import { Link, useNavigate, useParams } from 'react-router-dom'
+import Link from 'next/link'
+import { useParams, useRouter } from 'next/navigation'
 
-import Breadcrum from '../../../Components/Breadcrum'
-import AdminSidebar from '../../../Components/AdminSidebar'
+import Breadcrum from '@/Components/Breadcrum'
+import AdminSidebar from '@/Components/AdminSidebar'
 
-import FormValidator from "../../../Validators/FormValidator"
-import ImageValidator from '../../../Validators/ImageValidator'
+import FormValidator from "@/Validators/FormValidator"
+import ImageValidator from '@/Validators/ImageValidator'
 
 import { getMaincategory, updateMaincategory } from "../../../Redux/ActionCreators/MaincategoryActionCreators"
 export default function AdminUpdateMaincategory() {

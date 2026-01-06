@@ -8,7 +8,7 @@ import { Autoplay } from 'swiper/modules'
 
 import "swiper/css";
 
-import { getTestimonial } from "../Redux/ActionCreators/TestimonialActionCreators"
+import { getTestimonial } from "@/Redux/ActionCreators/TestimonialActionCreators"
 
 export default function Testimonial() {
     let TestimonialStateData = useSelector(state => state.TestimonialStateData)
@@ -37,7 +37,7 @@ export default function Testimonial() {
             <div className="container py-5">
                 <div className="row justify-content-center">
                     <div className="col-md-12 col-lg-9">
-                        <div className="testimonial-carousel ">
+                        <div className="testimonial-carousel">
                             <Swiper className="mySwiper" {...sliderOptions}>
                                 {
                                     TestimonialStateData.filter(x => x.star >= 4).map((item) => {
