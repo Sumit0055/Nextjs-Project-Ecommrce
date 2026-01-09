@@ -1,4 +1,4 @@
-import { CREATE_NEWSLETTER, DELETE_NEWSLETTER, GET_NEWSLETTER, UPDATE_NEWSLETTER } from "../Constant"
+import { CREATE_NEWSLETTER, DELETE_NEWSLETTER, GET_NEWSLETTER, UPDATE_NEWSLETTER } from "@/Redux/Constant"
 
 export function createNewsletter(data) {
     return {

@@ -11,7 +11,7 @@ import 'datatables.net';
 import Breadcrum from '@/Components/Breadcrum'
 import AdminSidebar from '@/Components/AdminSidebar'
 
-import { deleteNewsletter, getNewsletter, updateNewsletter } from "../../../Redux/ActionCreators/NewsletterActionCreators"
+import { deleteNewsletter, getNewsletter, updateNewsletter } from "@/Redux/ActionCreators/NewsletterActionCreators"
 export default function AdminNewsletter() {
     let [data, setData] = useState([])
     let [flag, setFlag] = useState(false)

@@ -1,4 +1,4 @@
-import { CREATE_FAQ_RED, DELETE_FAQ_RED, GET_FAQ_RED, UPDATE_FAQ_RED } from "../Constant"
+import { CREATE_FAQ_RED, DELETE_FAQ_RED, GET_FAQ_RED, UPDATE_FAQ_RED } from "@/Redux/Constant"
 
 export default function FaqReducer(state = [], action) {
     switch (action.type) {

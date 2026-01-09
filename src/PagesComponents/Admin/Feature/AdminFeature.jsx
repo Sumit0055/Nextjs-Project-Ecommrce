@@ -12,7 +12,7 @@ import 'datatables.net';
 import Breadcrum from '@/Components/Breadcrum'
 import AdminSidebar from '@/Components/AdminSidebar'
 
-import { deleteFeature, getFeature } from "../../../Redux/ActionCreators/FeatureActionCreators"
+import { deleteFeature, getFeature } from "@/Redux/ActionCreators/FeatureActionCreators"
 export default function AdminFeature() {
     let FeatureStateData = useSelector(state => state.FeatureStateData)
     let dispatch = useDispatch()

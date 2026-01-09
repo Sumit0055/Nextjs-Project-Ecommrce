@@ -5,10 +5,10 @@ import { useRouter } from 'next/navigation'
 
 import { ToastContainer, toast } from 'react-toastify';
 
-import { getCart, updateCart, deleteCart } from "../../Redux/ActionCreators/CartActionCreators"
-import { getProduct, updateProduct } from "../../Redux/ActionCreators/ProductActionCreators"
-import { getWishlist, createWishlist } from "../../Redux/ActionCreators/WishlistActionCreators"
-import { createCheckout } from "../../Redux/ActionCreators/CheckoutActionCreators"
+import { getCart, updateCart, deleteCart } from "@/Redux/ActionCreators/CartActionCreators"
+import { getProduct, updateProduct } from "@/Redux/ActionCreators/ProductActionCreators"
+import { getWishlist, createWishlist } from "@/Redux/ActionCreators/WishlistActionCreators"
+import { createCheckout } from "@/Redux/ActionCreators/CheckoutActionCreators"
 export default function Cart(props) {
     let [flag, setFlag] = useState(true)
     let [cart, setCart] = useState([])

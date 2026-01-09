@@ -12,7 +12,7 @@ import 'datatables.net';
 import Breadcrum from '@/Components/Breadcrum'
 import AdminSidebar from '@/Components/AdminSidebar'
 
-import { deleteUser, getUser, updateUser } from "../../../Redux/ActionCreators/UserActionCreators"
+import { deleteUser, getUser, updateUser } from "@/Redux/ActionCreators/UserActionCreators"
 export default function AdminUser() {
     let [data, setData] = useState([])
     let [flag, setFlag] = useState(false)

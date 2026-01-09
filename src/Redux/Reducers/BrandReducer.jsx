@@ -1,4 +1,4 @@
-import { CREATE_BRAND_RED, DELETE_BRAND_RED, GET_BRAND_RED, UPDATE_BRAND_RED } from "../Constant"
+import { CREATE_BRAND_RED, DELETE_BRAND_RED, GET_BRAND_RED, UPDATE_BRAND_RED } from "@/Redux/Constant"
 
 export default function BrandReducer(state = [], action) {
     switch (action.type) {

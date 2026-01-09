@@ -10,7 +10,7 @@ import AdminSidebar from '@/Components/AdminSidebar'
 
 import FormValidator from "@/Validators/FormValidator"
 
-import { getFaq, createFaq } from "../../../Redux/ActionCreators/FaqActionCreators"
+import { getFaq, createFaq } from "@/Redux/ActionCreators/FaqActionCreators"
 export default function AdminCreateFaq() {
     let [data, setData] = useState({
         question: "",

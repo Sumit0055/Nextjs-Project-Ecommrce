@@ -1,4 +1,4 @@
-import { CREATE_SUBCATEGORY_RED, DELETE_SUBCATEGORY_RED, GET_SUBCATEGORY_RED, UPDATE_SUBCATEGORY_RED } from "../Constant"
+import { CREATE_SUBCATEGORY_RED, DELETE_SUBCATEGORY_RED, GET_SUBCATEGORY_RED, UPDATE_SUBCATEGORY_RED } from "@/Redux/Constant"
 
 export default function SubcategoryReducer(state = [], action) {
     switch (action.type) {

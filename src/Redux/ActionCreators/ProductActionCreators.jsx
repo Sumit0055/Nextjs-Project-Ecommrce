@@ -1,4 +1,4 @@
-import { CREATE_PRODUCT, DELETE_PRODUCT, GET_PRODUCT, UPDATE_PRODUCT } from "../Constant"
+import { CREATE_PRODUCT, DELETE_PRODUCT, GET_PRODUCT, UPDATE_PRODUCT } from "@/Redux/Constant"
 
 export function createProduct(data) {
     return {

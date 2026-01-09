@@ -1,4 +1,4 @@
-import { CREATE_SETTING_RED, DELETE_SETTING_RED, GET_SETTING_RED, UPDATE_SETTING_RED } from "../Constant"
+import { CREATE_SETTING_RED, DELETE_SETTING_RED, GET_SETTING_RED, UPDATE_SETTING_RED } from "@/Redux/Constant"
 
 export default function SettingReducer(state = [], action) {
     switch (action.type) {

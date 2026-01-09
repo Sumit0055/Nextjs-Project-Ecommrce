@@ -12,7 +12,7 @@ import 'datatables.net';
 import Breadcrum from '@/Components/Breadcrum'
 import AdminSidebar from '@/Components/AdminSidebar'
 
-import { deleteBrand, getBrand } from "../../../Redux/ActionCreators/BrandActionCreators"
+import { deleteBrand, getBrand } from "@/Redux/ActionCreators/BrandActionCreators"
 export default function AdminBrand() {
     let BrandStateData = useSelector(state => state.BrandStateData)
     let dispatch = useDispatch()

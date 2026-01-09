@@ -11,7 +11,7 @@ import AdminSidebar from '@/Components/AdminSidebar'
 import FormValidator from "@/Validators/FormValidator"
 import ImageValidator from '@/Validators/ImageValidator'
 
-import { getBrand, createBrand } from "../../../Redux/ActionCreators/BrandActionCreators"
+import { getBrand, createBrand } from "@/Redux/ActionCreators/BrandActionCreators"
 export default function AdminCreateBrand() {
     let [data, setData] = useState({
         name: "",

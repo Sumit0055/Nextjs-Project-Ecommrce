@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 
-import FormValidator from '../../Validators/FormValidator'
+import FormValidator from '@/Validators/FormValidator'
 
 export default function Address() {
   let [option, setOption] = useState("Create")

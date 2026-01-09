@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import Link  from 'next/link'
 
-import { getWishlist, deleteWishlist } from "../../Redux/ActionCreators/WishlistActionCreators"
+import { getWishlist, deleteWishlist } from "@/Redux/ActionCreators/WishlistActionCreators"
 export default function Wishlist() {
   let [data, setData] = useState([])
 

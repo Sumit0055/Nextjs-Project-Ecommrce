@@ -12,7 +12,7 @@ import 'datatables.net';
 import Breadcrum from '@/Components/Breadcrum'
 import AdminSidebar from '@/Components/AdminSidebar'
 
-import { getCheckout } from "../../../Redux/ActionCreators/CheckoutActionCreators"
+import { getCheckout } from "@/Redux/ActionCreators/CheckoutActionCreators"
 export default function AdminCheckout() {
     let [data, setData] = useState([])
     let CheckoutStateData = useSelector(state => state.CheckoutStateData)

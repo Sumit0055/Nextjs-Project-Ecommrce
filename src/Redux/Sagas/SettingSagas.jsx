@@ -1,5 +1,5 @@
 import { put, takeEvery } from "redux-saga/effects"
-import { CREATE_SETTING, CREATE_SETTING_RED, DELETE_SETTING, DELETE_SETTING_RED, GET_SETTING, GET_SETTING_RED, UPDATE_SETTING, UPDATE_SETTING_RED } from "../Constant"
+import { CREATE_SETTING, CREATE_SETTING_RED, DELETE_SETTING, DELETE_SETTING_RED, GET_SETTING, GET_SETTING_RED, UPDATE_SETTING, UPDATE_SETTING_RED } from "@/Redux/Constant"
 import { createRecord, deleteRecord, getRecord, updateRecord } from "./Services/index"
 // import { createMultipartRecord, deleteRecord, getRecord, updateMultipartRecord } from "./Services/index"
 

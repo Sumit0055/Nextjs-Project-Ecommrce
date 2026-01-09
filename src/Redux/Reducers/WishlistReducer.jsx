@@ -1,4 +1,4 @@
-import { CREATE_WISHLIST_RED, DELETE_WISHLIST_RED, GET_WISHLIST_RED, UPDATE_WISHLIST_RED } from "../Constant"
+import { CREATE_WISHLIST_RED, DELETE_WISHLIST_RED, GET_WISHLIST_RED, UPDATE_WISHLIST_RED } from "@/Redux/Constant"
 
 export default function WishlistReducer(state = [], action) {
     switch (action.type) {

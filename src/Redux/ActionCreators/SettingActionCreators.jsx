@@ -1,4 +1,4 @@
-import { CREATE_SETTING, DELETE_SETTING, GET_SETTING, UPDATE_SETTING } from "../Constant"
+import { CREATE_SETTING, DELETE_SETTING, GET_SETTING, UPDATE_SETTING } from "@/Redux/Constant"
 
 export function createSetting(data) {
     return {

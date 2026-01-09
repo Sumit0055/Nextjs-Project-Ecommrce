@@ -10,7 +10,7 @@ import AdminSidebar from '@/Components/AdminSidebar'
 
 import FormValidator from "@/Validators/FormValidator"
 
-import { getUser, createUser } from "../../../Redux/ActionCreators/UserActionCreators"
+import { getUser, createUser } from "@/Redux/ActionCreators/UserActionCreators"
 export default function AdminCreateUser() {
     let [data, setData] = useState({
         name: "",

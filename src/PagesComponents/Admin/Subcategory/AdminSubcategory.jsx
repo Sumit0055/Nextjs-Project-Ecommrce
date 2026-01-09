@@ -12,7 +12,7 @@ import 'datatables.net';
 import Breadcrum from '@/Components/Breadcrum'
 import AdminSidebar from '@/Components/AdminSidebar'
 
-import { deleteSubcategory, getSubcategory } from "../../../Redux/ActionCreators/SubcategoryActionCreators"
+import { deleteSubcategory, getSubcategory } from "@/Redux/ActionCreators/SubcategoryActionCreators"
 export default function AdminSubcategory() {
     let SubcategoryStateData = useSelector(state => state.SubcategoryStateData)
     let dispatch = useDispatch()

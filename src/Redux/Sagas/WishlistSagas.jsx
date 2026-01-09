@@ -1,5 +1,5 @@
 import { put, takeEvery } from "redux-saga/effects"
-import { CREATE_WISHLIST, CREATE_WISHLIST_RED, DELETE_WISHLIST, DELETE_WISHLIST_RED, GET_WISHLIST, GET_WISHLIST_RED, UPDATE_WISHLIST, UPDATE_WISHLIST_RED } from "../Constant"
+import { CREATE_WISHLIST, CREATE_WISHLIST_RED, DELETE_WISHLIST, DELETE_WISHLIST_RED, GET_WISHLIST, GET_WISHLIST_RED, UPDATE_WISHLIST, UPDATE_WISHLIST_RED } from "@/Redux/Constant"
 import { createRecord, deleteRecord, getRecord, updateRecord } from "./Services/index"
 // import { createMultipartRecord, deleteRecord, getRecord, updateMultipartRecord } from "./Services/index"
 

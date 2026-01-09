@@ -1,4 +1,4 @@
-import { CREATE_FEATURE_RED, DELETE_FEATURE_RED, GET_FEATURE_RED, UPDATE_FEATURE_RED } from "../Constant"
+import { CREATE_FEATURE_RED, DELETE_FEATURE_RED, GET_FEATURE_RED, UPDATE_FEATURE_RED } from "@/Redux/Constant"
 
 export default function FeatureReducer(state = [], action) {
     switch (action.type) {

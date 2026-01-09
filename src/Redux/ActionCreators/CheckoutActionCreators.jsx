@@ -1,4 +1,4 @@
-import { CREATE_CHECKOUT, DELETE_CHECKOUT, GET_CHECKOUT, UPDATE_CHECKOUT } from "../Constant"
+import { CREATE_CHECKOUT, DELETE_CHECKOUT, GET_CHECKOUT, UPDATE_CHECKOUT } from "@/Redux/Constant"
 
 export function createCheckout(data) {
     return {

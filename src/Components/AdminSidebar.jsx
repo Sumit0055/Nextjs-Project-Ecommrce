@@ -21,6 +21,7 @@ export default function AdminSidebar() {
             <Link href="/admin/newsletter" className="list-group-item list-group-item-action" aria-current="true"><i className='fs-4 fa fa-envelope'></i><span className='float-end'>Newsletter</span></Link>
             <Link href="/admin/contactus" className="list-group-item list-group-item-action" aria-current="true"><i className='fs-4 fa fa-phone'></i><span className='float-end'>Contact Us</span></Link>
             <Link href="/admin/checkout" className="list-group-item list-group-item-action" aria-current="true"><i className='fs-4 fa fa-shopping-bag'></i><span className='float-end'>Checkouts</span></Link>
+            <Link href="/admin/seodata" className="list-group-item list-group-item-action" aria-current="true"><i className='fs-4 fa fa-arrow-up'></i><span className='float-end'>SeoData</span></Link>
             {role === "Super Admin" ? <Link href="/admin/user" className="list-group-item list-group-item-action" aria-current="true"><i className='fs-4 fa fa-users'></i><span className='float-end'>Users</span></Link> : null}
         </div>
     )

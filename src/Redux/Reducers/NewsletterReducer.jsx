@@ -1,4 +1,4 @@
-import { CREATE_NEWSLETTER_RED, DELETE_NEWSLETTER_RED, GET_NEWSLETTER_RED, UPDATE_NEWSLETTER_RED } from "../Constant"
+import { CREATE_NEWSLETTER_RED, DELETE_NEWSLETTER_RED, GET_NEWSLETTER_RED, UPDATE_NEWSLETTER_RED } from "@/Redux/Constant"
 
 export default function NewsletterReducer(state = [], action) {
     switch (action.type) {

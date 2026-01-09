@@ -1,4 +1,4 @@
-import { CREATE_CONTACT_US_RED, DELETE_CONTACT_US_RED, GET_CONTACT_US_RED, UPDATE_CONTACT_US_RED } from "../Constant"
+import { CREATE_CONTACT_US_RED, DELETE_CONTACT_US_RED, GET_CONTACT_US_RED, UPDATE_CONTACT_US_RED } from "@/Redux/Constant"
 
 export default function ContactUsReducer(state = [], action) {
     switch (action.type) {

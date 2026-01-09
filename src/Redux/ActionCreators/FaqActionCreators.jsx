@@ -1,4 +1,4 @@
-import { CREATE_FAQ, DELETE_FAQ, GET_FAQ, UPDATE_FAQ } from "../Constant"
+import { CREATE_FAQ, DELETE_FAQ, GET_FAQ, UPDATE_FAQ } from "@/Redux/Constant"
 
 export function createFaq(data) {
     return {

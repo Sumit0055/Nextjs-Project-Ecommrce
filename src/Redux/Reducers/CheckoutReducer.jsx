@@ -1,4 +1,4 @@
-import { CREATE_CHECKOUT_RED, DELETE_CHECKOUT_RED, GET_CHECKOUT_RED, UPDATE_CHECKOUT_RED } from "../Constant"
+import { CREATE_CHECKOUT_RED, DELETE_CHECKOUT_RED, GET_CHECKOUT_RED, UPDATE_CHECKOUT_RED } from "@/Redux/Constant"
 
 export default function CheckoutReducer(state = [], action) {
     switch (action.type) {

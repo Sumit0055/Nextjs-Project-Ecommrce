@@ -1,4 +1,4 @@
-import { CREATE_USER_RED, DELETE_USER_RED, GET_USER_RED, UPDATE_USER_RED } from "../Constant"
+import { CREATE_USER_RED, DELETE_USER_RED, GET_USER_RED, UPDATE_USER_RED } from "@/Redux/Constant"
 
 export default function UserReducer(state = [], action) {
     switch (action.type) {

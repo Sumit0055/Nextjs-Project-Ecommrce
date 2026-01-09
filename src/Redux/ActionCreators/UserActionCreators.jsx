@@ -1,4 +1,4 @@
-import { CREATE_USER, DELETE_USER, GET_USER, UPDATE_USER } from "../Constant"
+import { CREATE_USER, DELETE_USER, GET_USER, UPDATE_USER } from "@/Redux/Constant"
 
 export function createUser(data) {
     return {

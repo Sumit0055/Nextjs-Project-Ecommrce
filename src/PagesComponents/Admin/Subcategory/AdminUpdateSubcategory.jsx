@@ -11,7 +11,7 @@ import AdminSidebar from '@/Components/AdminSidebar'
 import FormValidator from "@/Validators/FormValidator"
 import ImageValidator from '@/Validators/ImageValidator'
 
-import { getSubcategory, updateSubcategory } from "../../../Redux/ActionCreators/SubcategoryActionCreators"
+import { getSubcategory, updateSubcategory } from "@/Redux/ActionCreators/SubcategoryActionCreators"
 export default function AdminUpdateSubcategory() {
     let { id } = useParams()
     let [data, setData] = useState({

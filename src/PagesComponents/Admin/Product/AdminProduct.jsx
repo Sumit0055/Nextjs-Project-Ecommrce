@@ -12,7 +12,7 @@ import 'datatables.net';
 import Breadcrum from '@/Components/Breadcrum'
 import AdminSidebar from '@/Components/AdminSidebar'
 
-import { deleteProduct, getProduct } from "../../../Redux/ActionCreators/ProductActionCreators"
+import { deleteProduct, getProduct } from "@/Redux/ActionCreators/ProductActionCreators"
 export default function AdminProduct() {
     let ProductStateData = useSelector(state => state.ProductStateData)
     let dispatch = useDispatch()

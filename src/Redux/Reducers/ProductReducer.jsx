@@ -1,4 +1,4 @@
-import { CREATE_PRODUCT_RED, DELETE_PRODUCT_RED, GET_PRODUCT_RED, UPDATE_PRODUCT_RED } from "../Constant"
+import { CREATE_PRODUCT_RED, DELETE_PRODUCT_RED, GET_PRODUCT_RED, UPDATE_PRODUCT_RED } from "@/Redux/Constant"
 
 export default function ProductReducer(state = [], action) {
     switch (action.type) {

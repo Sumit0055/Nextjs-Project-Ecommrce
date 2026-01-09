@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import Breadcrum from '@/Components/Breadcrum'
 import AdminSidebar from '@/Components/AdminSidebar'
 
-import { deleteCheckout, getCheckout, updateCheckout } from "../../../Redux/ActionCreators/CheckoutActionCreators"
+import { deleteCheckout, getCheckout, updateCheckout } from "@/Redux/ActionCreators/CheckoutActionCreators"
 export default function AdminCheckoutShow() {
     let { id } = useParams()
     let [data, setData] = useState({})

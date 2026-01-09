@@ -10,7 +10,7 @@ import AdminSidebar from '@/Components/AdminSidebar'
 
 import FormValidator from "@/Validators/FormValidator"
 
-import { getFeature, createFeature } from "../../../Redux/ActionCreators/FeatureActionCreators"
+import { getFeature, createFeature } from "@/Redux/ActionCreators/FeatureActionCreators"
 export default function AdminCreateFeature() {
     let [data, setData] = useState({
         name: "",

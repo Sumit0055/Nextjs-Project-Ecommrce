@@ -11,10 +11,10 @@ import AdminSidebar from '@/Components/AdminSidebar'
 import FormValidator from "@/Validators/FormValidator"
 import ImageValidator from '@/Validators/ImageValidator'
 
-import { getProduct, updateProduct } from "../../../Redux/ActionCreators/ProductActionCreators"
-import { getMaincategory } from "../../../Redux/ActionCreators/MaincategoryActionCreators"
-import { getSubcategory } from "../../../Redux/ActionCreators/SubcategoryActionCreators"
-import { getBrand } from "../../../Redux/ActionCreators/BrandActionCreators"
+import { getProduct, updateProduct } from "@/Redux/ActionCreators/ProductActionCreators"
+import { getMaincategory } from "@/Redux/ActionCreators/MaincategoryActionCreators"
+import { getSubcategory } from "@/Redux/ActionCreators/SubcategoryActionCreators"
+import { getBrand } from "@/Redux/ActionCreators/BrandActionCreators"
 
 var rte;
 export default function AdminUpdateProduct() {

@@ -1,4 +1,4 @@
-import { CREATE_BRAND, DELETE_BRAND, GET_BRAND, UPDATE_BRAND } from "../Constant"
+import { CREATE_BRAND, DELETE_BRAND, GET_BRAND, UPDATE_BRAND } from "@/Redux/Constant"
 
 export function createBrand(data) {
     return {

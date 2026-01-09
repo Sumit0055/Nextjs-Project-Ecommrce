@@ -12,7 +12,7 @@ import 'datatables.net';
 import Breadcrum from '@/Components/Breadcrum'
 import AdminSidebar from '@/Components/AdminSidebar'
 
-import { deleteFaq, getFaq } from "../../../Redux/ActionCreators/FaqActionCreators"
+import { deleteFaq, getFaq } from "@/Redux/ActionCreators/FaqActionCreators"
 export default function AdminFaq() {
     let FaqStateData = useSelector(state => state.FaqStateData)
     let dispatch = useDispatch()

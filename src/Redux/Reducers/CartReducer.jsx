@@ -1,4 +1,4 @@
-import { CREATE_CART_RED, DELETE_CART_RED, GET_CART_RED, UPDATE_CART_RED } from "../Constant"
+import { CREATE_CART_RED, DELETE_CART_RED, GET_CART_RED, UPDATE_CART_RED } from "@/Redux/Constant"
 
 export default function CartReducer(state = [], action) {
     switch (action.type) {

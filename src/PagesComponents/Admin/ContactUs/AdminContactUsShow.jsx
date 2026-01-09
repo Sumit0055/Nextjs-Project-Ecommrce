@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import Breadcrum from '@/Components/Breadcrum'
 import AdminSidebar from '@/Components/AdminSidebar'
 
-import { deleteContactUs, getContactUs, updateContactUs } from "../../../Redux/ActionCreators/ContactUsActionCreators"
+import { deleteContactUs, getContactUs, updateContactUs } from "@/Redux/ActionCreators/ContactUsActionCreators"
 export default function AdminContactUsShow() {
     let { id } = useParams()
     let [data, setData] = useState({})

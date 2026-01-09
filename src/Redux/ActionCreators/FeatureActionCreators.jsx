@@ -1,4 +1,4 @@
-import { CREATE_FEATURE, DELETE_FEATURE, GET_FEATURE, UPDATE_FEATURE } from "../Constant"
+import { CREATE_FEATURE, DELETE_FEATURE, GET_FEATURE, UPDATE_FEATURE } from "@/Redux/Constant"
 
 export function createFeature(data) {
     return {

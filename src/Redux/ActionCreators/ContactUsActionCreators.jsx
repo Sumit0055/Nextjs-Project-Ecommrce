@@ -1,4 +1,4 @@
-import { CREATE_CONTACT_US, DELETE_CONTACT_US, GET_CONTACT_US, UPDATE_CONTACT_US } from "../Constant"
+import { CREATE_CONTACT_US, DELETE_CONTACT_US, GET_CONTACT_US, UPDATE_CONTACT_US } from "@/Redux/Constant"
 
 export function createContactUs(data) {
     return {

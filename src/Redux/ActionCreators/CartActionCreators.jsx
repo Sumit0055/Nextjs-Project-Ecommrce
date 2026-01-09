@@ -1,4 +1,4 @@
-import { CREATE_CART, DELETE_CART, GET_CART, UPDATE_CART } from "../Constant"
+import { CREATE_CART, DELETE_CART, GET_CART, UPDATE_CART } from "@/Redux/Constant"
 
 export function createCart(data) {
     return {

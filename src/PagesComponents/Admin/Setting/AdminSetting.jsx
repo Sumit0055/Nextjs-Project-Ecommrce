@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import Breadcrum from '@/Components/Breadcrum'
 import AdminSidebar from '@/Components/AdminSidebar'
 
-import { createSetting, getSetting, updateSetting } from "../../../Redux/ActionCreators/SettingActionCreators"
+import { createSetting, getSetting, updateSetting } from "@/Redux/ActionCreators/SettingActionCreators"
 export default function AdminSetting() {
     let [data, setData] = useState({
         map1: "",

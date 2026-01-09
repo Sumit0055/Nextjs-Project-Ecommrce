@@ -4,8 +4,8 @@ import Link  from 'next/link'
 
 import { ToastContainer, toast } from 'react-toastify';
 
-import { getCheckout } from "../../Redux/ActionCreators/CheckoutActionCreators"
-import { getTestimonial, createTestimonial, updateTestimonial } from "../../Redux/ActionCreators/TestimonialActionCreators"
+import { getCheckout } from "@/Redux/ActionCreators/CheckoutActionCreators"
+import { getTestimonial, createTestimonial, updateTestimonial } from "@/Redux/ActionCreators/TestimonialActionCreators"
 export default function Orders() {
   let [orders, setOrders] = useState([])
   let [reviews, setReviews] = useState([])

@@ -24,6 +24,7 @@ export default function FormValidator(e) {
         case "pin":
         case "city":
         case "subject":
+        case "title":
             if (!value || value.length === 0)
                 return name + " Field is Mendatory"
             else if (value.length < 3 || value.length > 200)
@@ -31,7 +32,15 @@ export default function FormValidator(e) {
             else
                 return ""
 
+            case "url":
+            if (!value || value.length === 0)
+                return name + " Url Field is Mendatory"
+            else
+                return ""
+
         case "message":
+        case "description":
+        case "keywords":
             if (!value || value.length === 0)
                 return name + " Field is Mendatory"
             else if (value.length < 50)

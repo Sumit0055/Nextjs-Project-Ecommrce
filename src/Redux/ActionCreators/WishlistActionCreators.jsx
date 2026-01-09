@@ -1,4 +1,4 @@
-import { CREATE_WISHLIST, DELETE_WISHLIST, GET_WISHLIST, UPDATE_WISHLIST } from "../Constant"
+import { CREATE_WISHLIST, DELETE_WISHLIST, GET_WISHLIST, UPDATE_WISHLIST } from "@/Redux/Constant"
 
 export function createWishlist(data) {
     return {

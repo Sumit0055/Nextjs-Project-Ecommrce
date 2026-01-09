@@ -11,7 +11,7 @@ import AdminSidebar from '@/Components/AdminSidebar'
 import FormValidator from "@/Validators/FormValidator"
 import ImageValidator from '@/Validators/ImageValidator'
 
-import { getBrand, updateBrand } from "../../../Redux/ActionCreators/BrandActionCreators"
+import { getBrand, updateBrand } from "@/Redux/ActionCreators/BrandActionCreators"
 export default function AdminUpdateBrand() {
     let { id } = useParams()
     let [data, setData] = useState({
