@@ -14,7 +14,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
   return {
     title : data?.title??"ShopStudio - Home",
     description : data?.description ?? "",
-    keywords: data.keywords?.split(",")||[]
+    keywords: data?.keywords?.split(",")||[]
   }
 }
 

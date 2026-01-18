@@ -11,6 +11,7 @@ import { getMaincategory } from "@/Redux/ActionCreators/MaincategoryActionCreato
 import { getSubcategory } from "@/Redux/ActionCreators/SubcategoryActionCreators"
 import { getBrand } from "@/Redux/ActionCreators/BrandActionCreators"
 import { getProduct } from "@/Redux/ActionCreators/ProductActionCreators"
+import Image from 'next/image'
 
 export default function ShopPage() {
     let [products, setProducts] = useState([])
@@ -197,7 +198,7 @@ export default function ShopPage() {
                                 products?.map(item => {
                                     return <div key={item.id} className="col-md-6 col-lg-4" data-wow-delay="0.1s">
                                         <div className="team-item position-relative overflow-hidden">
-                                            <img className="img-fluid w-100" src={`${process.env.NEXT_PUBLIC_IMAGE_SERVER}/${item.pic[0]}`} alt="" style={{ height: 350 }} />
+                                            <Image className="img-fluid w-100" src={`${process.env.NEXT_PUBLIC_IMAGE_SERVER}/${item.pic[0]}`}  height={350} width={300} alt="" style={{ height: 350 }} />
                                             <div className="team-overlay">
                                                 <small className="mb-2 w-75 text-center m-auto position-absolute top-0">{item.brand}</small>
                                                 <h4 className="lh-base text-light" style={{ height: 80 }}>{item.name}</h4>

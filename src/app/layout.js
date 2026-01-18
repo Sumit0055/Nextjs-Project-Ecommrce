@@ -1,6 +1,7 @@
 
 import Script from "next/script";
 import MasterLayout from "./MasterLayout"
+import Head from "next/head";
 
 export const metadata = {
   title: "ShopStudio - All-in-One E-Commerce Solution | Fast, Secure & Reliable Online Shopping",

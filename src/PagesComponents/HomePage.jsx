@@ -19,6 +19,7 @@ import BrandSlider from '@/Components/BrandSlider';
 
 import { getMaincategory } from "@/Redux/ActionCreators/MaincategoryActionCreators"
 import { getProduct } from "@/Redux/ActionCreators/ProductActionCreators"
+import Image from 'next/image';
 
 export default function HomePage() {
     let MaincategoryStateData = useSelector(state => state.MaincategoryStateData)
@@ -58,16 +59,16 @@ export default function HomePage() {
                         <div className="col-lg-6">
                             <div className="">
                                 <Swiper className="mySwiper" {...sliderOptions}>
-                                    <SwiperSlide><img className="w-100" height={300} src="/images/banner1.jpg" alt="" /></SwiperSlide>
-                                    <SwiperSlide><img className="w-100" height={300} src="/images/banner2.jpg" alt="" /></SwiperSlide>
-                                    <SwiperSlide><img className="w-100" height={300} src="/images/banner3.jpg" alt="" /></SwiperSlide>
-                                    <SwiperSlide><img className="w-100" height={300} src="/images/banner4.jpg" alt="" /></SwiperSlide>
-                                    <SwiperSlide><img className="w-100" height={300} src="/images/banner5.jpg" alt="" /></SwiperSlide>
-                                    <SwiperSlide><img className="w-100" height={300} src="/images/banner6.jpg" alt="" /></SwiperSlide>
-                                    <SwiperSlide><img className="w-100" height={300} src="/images/banner7.jpg" alt="" /></SwiperSlide>
-                                    <SwiperSlide><img className="w-100" height={300} src="/images/banner8.jpg" alt="" /></SwiperSlide>
-                                    <SwiperSlide><img className="w-100" height={300} src="/images/banner9.jpg" alt="" /></SwiperSlide>
-                                    <SwiperSlide><img className="w-100" height={300} src="/images/banner10.jpg" alt="" /></SwiperSlide>
+                                    <SwiperSlide><Image className="w-100" width={500} height={300} src="/images/banner1.jpg" alt="" /></SwiperSlide>
+                                    <SwiperSlide><Image className="w-100" width={500} height={300} src="/images/banner2.jpg" alt="" /></SwiperSlide>
+                                    <SwiperSlide><Image className="w-100" width={500} height={300} src="/images/banner3.jpg" alt="" /></SwiperSlide>
+                                    <SwiperSlide><Image className="w-100" width={500} height={300} src="/images/banner4.jpg" alt="" /></SwiperSlide>
+                                    <SwiperSlide><Image className="w-100" width={500} height={300} src="/images/banner5.jpg" alt="" /></SwiperSlide>
+                                    <SwiperSlide><Image className="w-100" width={500} height={300} src="/images/banner6.jpg" alt="" /></SwiperSlide>
+                                    <SwiperSlide><Image className="w-100" width={500} height={300} src="/images/banner7.jpg" alt="" /></SwiperSlide>
+                                    <SwiperSlide><Image className="w-100" width={500} height={300} src="/images/banner8.jpg" alt="" /></SwiperSlide>
+                                    <SwiperSlide><Image className="w-100" width={500} height={300} src="/images/banner9.jpg" alt="" /></SwiperSlide>
+                                    <SwiperSlide><Image className="w-100" width={500} height={300} src="/images/banner10.jpg" alt="" /></SwiperSlide>
                                 </Swiper>
                             </div>
                         </div>
