@@ -52,7 +52,7 @@ export default function HomePage() {
                 <div className="container py-5">
                     <div className="row g-5 align-items-center mb-5">
                         <div className="col-lg-6">
-                            <h1 className="display-3 mb-4  slideInRight">Shop <span className='text-primary'>Smarter</span>, Live <span className='text-primary'>Better</span> with <span className='text-primary'>ShopStudio</span></h1>
+                            <h1 className="display-3 mb-4  slideInRight">Shops <span className='text-primary'>Smarter</span>, Live <span className='text-primary'>Better</span> with <span className='text-primary'>ShopStudio</span></h1>
                             <h5 className="d-inline-block border border-2 border-white py-3 px-5 mb-0  slideInRight">
                                 ShopStudio - Style, Savings & Speed!</h5>
                         </div>
